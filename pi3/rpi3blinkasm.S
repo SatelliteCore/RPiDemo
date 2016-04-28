@@ -6,7 +6,7 @@
 
   How To Run:
 
-  $ arm-none-eabi-gcc -march=armv7-a -mtune=cortex-a7 -nostartfiles rpi3blinkasm.s -o rpi3blinkasm.elf
+  $ arm-none-eabi-gcc -march=armv7-a -mtune=cortex-a7 -nostartfiles rpi3blinkasm.S -o rpi3blinkasm.elf
   $ arm-none-eabi-objcopy rpi3blinkasm.elf -O binary rpi3blinkasm.img
 
   Then copy rpi3blinkasm.img to your SD card boot partition and edit config.txt
